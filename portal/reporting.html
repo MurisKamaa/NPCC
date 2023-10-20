@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Reminder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="reportingStyle.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+          <img src="../images/CoA.png" alt="Logo">
+        </div>
+        <a href="#">
+            <h1>National Productivity and <br>Competitiveness Centre</h1>
+        </a>
+        <div class="icons">
+          <a href="#">FAQ</a>
+          <a href="#">Sitemap</a>
+          <a href="#">Complaints</a>
+        </div>
+        <div class="logo">
+            <img src="../images/logo.png" alt="Logo">
+        </div>
+    </header>
+    
+    <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="../index.html">About</a>
+        <a href="../index.html">Productivity</a>
+        <a href="../index.html">Media</a>
+        <a href="#">Reporting</a>
+        <a href="../index.html">Contact Us</a>
+    </nav>
+    <main>
+        <div class="card">
+            <h2>Quarterly Reporting</h2>
+            <form id="reporting-form">
+                <label for="org-level">Select Organization Level:</label>
+                <select name="org-level" id="org-level" required>
+                    <option value="">Select Level</option>
+                    <option value="ministry">Ministry</option>
+                    <option value="county">County</option>
+                    <option value="department">Department</option>
+                    <option value="agency">Agency</option>
+                    <option value="university">University</option>
+                    <option value="tvet">TVET</option>
+                </select>
+                <label for="org-name">Organization Name:</label>
+                <select id="org-name" name="org-name" class="org-name-select" required>
+                  </select>
+                
+                <label for="reporting-period">Reporting Period:</label>
+                <select id="reporting-period" name="reporting-period">
+                  <option value="Q1">Q1</option>
+                  <option value="Q2">Q2</option>
+                  <option value="Q3">Q3</option>
+                  <option value="Q4">Q4</option>
+                </select>
+          
+                <p>Select Reporting Criteria:</p>
+                <label for="criteria-1">Criterion 1:</label>
+                <select id="criteria-1" name="criteria-1">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+          
+                <label for="criteria-2">Criterion 2:</label>
+                <select id="criteria-2" name="criteria-2">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+          
+                <!-- Add more criteria as needed -->
+          
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 National Productivity and Competitiveness Centre</p>
+          <p>Contact: productivitycentre@labour.go.ke</p>
+        </div>
+      </footer>
+      <script src="../main.js"></script>
+</body>
+</html>
