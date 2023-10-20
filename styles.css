@@ -77,7 +77,7 @@
 }
 
 .holo {
-    background: url('images/holo.png') no-repeat center center;
+    background: url('images/holo.jpg') no-repeat center center;
     background-size: cover;
     border: 1px solid #ddd;
     border-radius: 5px;
